@@ -1,0 +1,19 @@
+{
+  "userSettings": {
+    "artifactReviewMode": "ARTIFACT_REVIEW_MODE_TURBO",
+    "autoExecutionPolicy": "CASCADE_COMMANDS_AUTO_EXECUTION_EAGER",
+    "browserJsExecutionPolicy": "BROWSER_JS_EXECUTION_POLICY_TURBO",
+    "enableTerminalSandbox": false,
+    "globalPermissionGrants": {
+      "allow": [
+        "read_url(antigravity.google)",
+        "command(node -v; python --version)",
+        "read_url(raw.githubusercontent.com)",
+        "read_url(github.com)",
+        "read_url(skills.sh)"
+      ]
+    },
+    "nonWorkspaceFileAccessPolicy": "AGENT_SETTING_POLICY_ALLOW",
+    "themeMode": "THEME_MODE_DARK"
+  }
+}
