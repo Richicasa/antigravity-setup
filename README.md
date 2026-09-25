@@ -7,7 +7,7 @@
 
 ## 🌟 Características Principales
 
-- 🎯 **45 Habilidades Globales Auditadas:** Cubren desde arquitectura frontend, bases de datos y optimización de rendimiento, hasta testing con navegadores, seguridad web y automatización de documentos.
+- 🎯 **50 Habilidades Globales Auditadas:** Cubren desde arquitectura frontend, bases de datos y optimización de rendimiento, hasta testing con navegadores, seguridad web y automatización de documentos.
 - 👥 **6 Subagentes Especializados:** Agentes delegados listos para investigación biomédica, estadística, narrativa académica, síntesis y redacción técnica.
 - 🛡️ **Escudo de Seguridad Antimalware (`skill-security-guard`):** Auditoría estática heurística obligatoria antes de instalar o ejecutar cualquier habilidad o repositorio de terceros.
 - 🐘 **Arquitectura de Carga Progresiva (*Zero Context Bloat*):** Evita el *"efecto de un elefante cayendo sobre una hormiga"*. Antigravity solo carga una pequeña descripción inicial de 2 líneas; el manual operativo completo y los scripts de cada skill se activan bajo demanda únicamente cuando la tarea lo requiere.
@@ -87,6 +87,10 @@ Antigravity únicamente lee este encabezado en su índice general. Cuando tú le
 - **`vercel-react-best-practices`**: Buenas prácticas oficiales de ingeniería de Vercel para React y Next.js.
 
 ### ⚙️ 3. Ingeniería de Software & Buenas Prácticas
+- **`codebase-design`**: Filosofía de John Ousterhout (*Philosophy of Software Design*): diseño de módulos profundos (*deep modules* con interfaz compacta y mucha lógica oculta), costuras (*seams*) limpias y testabilidad natural.
+- **`domain-modeling`**: Modelado activo de dominio: construcción y mantenimiento del glosario vivo del proyecto (`CONTEXT.md`) y registro estricto de ADRs solo ante verdaderos *trade-offs* irreversibles.
+- **`improve-codebase-architecture`**: Escáner de oportunidades arquitectónicas y deuda técnica en el código con generación de reporte visual HTML.
+- **`wizard`**: Generador de scripts bash interactivos (`template.sh`) para guiar a un humano paso a paso en acciones complejas (credenciales en dashboards, tokens, migraciones de BD).
 - **`karpathy-guidelines`**: Directrices de Andrej Karpathy para programar con IA: cambios quirúrgicos, sin sobre-ingeniería y con criterios verificables de éxito.
 - **`git-workflow-and-versioning`**: Commits atómicos, ramas aisladas, rebase limpio y resolución de conflictos.
 - **`api-and-interface-design`**: Diseño ergonómico de APIs y contratos estrictos entre frontend y backend antes de escribir lógica.
@@ -111,6 +115,7 @@ Antigravity únicamente lee este encabezado en su índice general. Cuando tú le
 - **`bigquery-sql`**, **`bigquery-ai-ml`**, **`bigtable-basics`**: Optimización de consultas analíticas y bases de datos a gran escala.
 
 ### 📚 6. Documentación, Redacción Científica & Archivos
+- **`writing-shape`**: Escultura de artículos o capítulos a partir de un banco desordenado de notas o fuentes (*raw material*), párrafo por párrafo debatiendo formato y progresión lógica.
 - **`docx`**: Creación y edición profunda de documentos Word a bajo nivel XML preservando estilos y tipografía.
 - **`pdf`**: Extracción quirúrgica de texto, tablas y metadatos desde documentos PDF.
 - **`xlsx`**: Lectura y generación avanzada de hojas de cálculo de Excel.

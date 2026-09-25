@@ -32,7 +32,7 @@ Write-Host "        ANTIGRAVITY PRO SUITE - INSTALADOR AUTOMATICO            " -
 Write-Host "==================================================================" -ForegroundColor Magenta
 Write-Host "Equipando tu maquina con:" -ForegroundColor White
 Write-Host "  - Herramientas de desarrollo esenciales (Git, Node, Python, VS Code)" -ForegroundColor Gray
-Write-Host "  - 45 Habilidades (Skills) globales auditadas y optimizadas" -ForegroundColor Gray
+Write-Host "  - 50 Habilidades (Skills) globales auditadas y optimizadas" -ForegroundColor Gray
 Write-Host "  - 6 Subagentes especializados de alto rendimiento" -ForegroundColor Gray
 Write-Host "  - Protocolo de Ingenieria Global y Gate de Seguridad Antimalware" -ForegroundColor Gray
 Write-Host "  - Arquitectura de Carga Progresiva (Cero saturacion de contexto)" -ForegroundColor Gray
@@ -131,7 +131,7 @@ if (Test-Path (Join-Path $srcConfigDir "config.json")) {
 # ------------------------------------------------------------------------------
 # 4. Despliegue de 45 Skills con Carga Progresiva
 # ------------------------------------------------------------------------------
-Write-Step "Paso 4: Desplegando 45 habilidades globales (Skills)..."
+Write-Step "Paso 4: Desplegando 50 habilidades globales (Skills)..."
 
 $srcSkillsDir = Join-Path $PSScriptRoot "skills"
 $skills = Get-ChildItem -Path $srcSkillsDir -Directory
@@ -195,7 +195,7 @@ Write-Host "          INSTALACION COMPLETADA CON EXITO                        " 
 Write-Host "==================================================================" -ForegroundColor Green
 Write-Host "Tu Antigravity ahora tiene exactamente las mismas capacidades de elite:" -ForegroundColor White
 Write-Host "  1. Carga Progresiva Activa:" -ForegroundColor Yellow
-Write-Host "     Las 45 habilidades NO saturan el contexto de entrada." -ForegroundColor Gray
+Write-Host "     Las 50 habilidades NO saturan el contexto de entrada." -ForegroundColor Gray
 Write-Host "     Antigravity lee unicamente las descripciones breves al inicio" -ForegroundColor Gray
 Write-Host "     y carga los manuales y scripts completos solo cuando los necesita." -ForegroundColor Gray
 Write-Host "  2. Protocolo de Ingenieria Global:" -ForegroundColor Yellow
