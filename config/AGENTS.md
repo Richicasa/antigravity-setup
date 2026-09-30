@@ -49,9 +49,13 @@ This document defines the global development protocol for Antigravity on this ma
 
 ---
 
-## 6. Ecosystem & Meta-Skills
+## 6. Ecosystem, Meta-Skills & Continuous Improvement
+* `self-improving-agent`: Post-task reflection; analyze failure patterns, graduate lessons into permanent project rules, and curate project memory.
+* `mcp-builder`: When building, configuring, or debugging custom Model Context Protocol (MCP) servers (Python/FastMCP or TypeScript) to connect external APIs, databases, or CLIs.
+* `docker-development`: When designing, optimizing, or securing multi-stage Dockerfiles and docker-compose configurations.
+* `web-artifacts-builder`: When building complex multi-component interactive frontend applications (React, Tailwind, shadcn/ui) bundled into standalone HTML artifacts.
 * `find-skills`: When the user asks "how do I do X", "find a skill for X", or requires new capabilities from the skills.sh ecosystem.
-* `skill-creator`: When authoring or refining new skills for Antigravity.
+* `skill-creator` / `creador-habilidades`: When authoring or refining new skills for Antigravity.
 
 ---
 

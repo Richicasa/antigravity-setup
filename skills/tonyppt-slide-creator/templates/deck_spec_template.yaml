@@ -1,0 +1,54 @@
+# TonyPPT Bento Grid Deck Specification Template
+# Ratio: 85% Visuals, 15% Text/Microcopy
+
+theme: "luxury-dark" # options: "luxury-dark", "editorial-cream"
+
+slides:
+  # Slide 1: Tony Signature Hero Stat Mosaic
+  - archetype: "hero-stat-mosaic"
+    hero_image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1600&q=80"
+    top_metric_card:
+      badge: "FROM"
+      value: "$795,000"
+      label: "Starting price, studio residences"
+    middle_stat_card:
+      value: "42"
+      label: "Storeys above the East River"
+    bottom_accent_card:
+      value: "2027"
+      label: "Move-in from Q3"
+
+  # Slide 2: Triad Comparison (Morphs smoothly from Slide 1)
+  - archetype: "triad-comparison"
+    columns:
+      - title: "Studio"
+        price: "$795,000"
+        detail: "540 sq ft · City view"
+      - title: "One Bedroom"
+        price: "$1,150,000"
+        detail: "820 sq ft · River view"
+      - title: "Two Bedroom"
+        price: "$1,820,000"
+        detail: "1,240 sq ft · Corner panoramic"
+    headline: "Living space takes the glass,\nthe kitchen takes the core."
+    bottom_stat:
+      value: "8 ft"
+      label: "Floor-to-ceiling glass exposure"
+    side_image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1600&q=80"
+
+  # Slide 3: Quad Bento (Multi-metric chips + split photos)
+  - archetype: "quad-bento"
+    metric_chips:
+      - val: "10-foot"
+        lbl: "ceilings on every floor"
+      - val: "168"
+        lbl: "exclusive residences"
+        color: "accent"
+      - val: "30 sec"
+        lbl: "elevator transit to lobby"
+      - val: "12 ft"
+        lbl: "clear span terrace balconies"
+    wide_image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600&q=80"
+    detail_card_title: "Architectural Identity"
+    detail_card_text: "Custom warm bronze anodized aluminum ribbons curve along the building contour."
+    small_image: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600&q=80"

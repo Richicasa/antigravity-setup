@@ -7,7 +7,7 @@
 
 ## 🌟 Características Principales
 
-- 🎯 **50 Habilidades Globales Auditadas:** Cubren desde arquitectura frontend, bases de datos y optimización de rendimiento, hasta testing con navegadores, seguridad web y automatización de documentos.
+- 🎯 **56 Habilidades Globales Auditadas:** Cubren desde arquitectura frontend, bases de datos y optimización de rendimiento, hasta testing con navegadores, seguridad web y automatización de documentos.
 - 👥 **6 Subagentes Especializados:** Agentes delegados listos para investigación biomédica, estadística, narrativa académica, síntesis y redacción técnica.
 - 🛡️ **Escudo de Seguridad Antimalware (`skill-security-guard`):** Auditoría estática heurística obligatoria antes de instalar o ejecutar cualquier habilidad o repositorio de terceros.
 - 🐘 **Arquitectura de Carga Progresiva (*Zero Context Bloat*):** Evita el *"efecto de un elefante cayendo sobre una hormiga"*. Antigravity solo carga una pequeña descripción inicial de 2 líneas; el manual operativo completo y los scripts de cada skill se activan bajo demanda únicamente cuando la tarea lo requiere.
@@ -80,13 +80,16 @@ Antigravity únicamente lee este encabezado en su índice general. Cuando tú le
 - **`accidental-data-loss-prevention`**: Bloqueo preventivo de comandos destructivos (`rm -rf`, `DROP TABLE`, borrado de buckets en la nube) requiriendo confirmación obligatoria.
 
 ### 🎨 2. Arquitectura Frontend & UI/UX
+- **`web-artifacts-builder`**: Suite avanzada para construir aplicaciones web interactivas completas (React 18, Tailwind CSS, shadcn/ui, Radix UI) empaquetadas en un único archivo HTML listo para usarse.
 - **`frontend-design`**: Diseño de interfaces limpias, modernas y distintivas sin caer en plantillas genéricas.
 - **`web-design-guidelines`**: Auditoría de usabilidad, tipografía, jerarquía visual y accesibilidad web.
 - **`design-doc-mermaid`**: Generación de diagramas de arquitectura en Mermaid (diagramas de secuencia, clases, entidad-relación y flujos).
-- **`generative_ui`**: Renderizado de widgets interactivos HTML directamente en la conversación.
+- **`generative_ui`**: Renderizado de widgets interactivos HTML directamente en la conversación de chat.
 - **`vercel-react-best-practices`**: Buenas prácticas oficiales de ingeniería de Vercel para React y Next.js.
 
 ### ⚙️ 3. Ingeniería de Software & Buenas Prácticas
+- **`mcp-builder`**: Guía y generador para crear servidores Model Context Protocol (MCP) en Python (FastMCP) o TypeScript y conectar cualquier API, base de datos o herramienta externa a Antigravity.
+- **`docker-development`**: Especialista en optimización de Dockerfiles multi-etapa, docker-compose, seguridad de contenedores y análisis estático con `dockerfile_analyzer.py`.
 - **`codebase-design`**: Filosofía de John Ousterhout (*Philosophy of Software Design*): diseño de módulos profundos (*deep modules* con interfaz compacta y mucha lógica oculta), costuras (*seams*) limpias y testabilidad natural.
 - **`domain-modeling`**: Modelado activo de dominio: construcción y mantenimiento del glosario vivo del proyecto (`CONTEXT.md`) y registro estricto de ADRs solo ante verdaderos *trade-offs* irreversibles.
 - **`improve-codebase-architecture`**: Escáner de oportunidades arquitectónicas y deuda técnica en el código con generación de reporte visual HTML.
@@ -115,6 +118,8 @@ Antigravity únicamente lee este encabezado en su índice general. Cuando tú le
 - **`bigquery-sql`**, **`bigquery-ai-ml`**, **`bigtable-basics`**: Optimización de consultas analíticas y bases de datos a gran escala.
 
 ### 📚 6. Documentación, Redacción Científica & Archivos
+- **`pptx`**: Motor OpenXML y python-pptx para crear, leer, modificar y validar presentaciones PowerPoint (.pptx) programáticamente.
+- **`tonyppt-slide-creator`**: Creación estética de diapositivas estilo Bento Grid con 85% imágenes HD y 15% copy de alto impacto visual.
 - **`writing-shape`**: Escultura de artículos o capítulos a partir de un banco desordenado de notas o fuentes (*raw material*), párrafo por párrafo debatiendo formato y progresión lógica.
 - **`docx`**: Creación y edición profunda de documentos Word a bajo nivel XML preservando estilos y tipografía.
 - **`pdf`**: Extracción quirúrgica de texto, tablas y metadatos desde documentos PDF.
@@ -125,6 +130,7 @@ Antigravity únicamente lee este encabezado en su índice general. Cuando tú le
 - **`find-skills`**: Localizador inteligente de nuevas habilidades en el ecosistema skills.sh.
 
 ### 🤖 7. Orquestación Agéntica Avanzada
+- **`self-improving-agent`**: Curaduría de memoria y aprendizaje continuo del agente; extrae lecciones aprendidas de las sesiones y las promueve a reglas permanentes de proyecto.
 - **`writing-plans`** y **`executing-plans`**: Desglose estructurado de tareas complejas en pasos secuenciales verificables.
 - **`subagent-driven-development`** y **`dispatching-parallel-agents`**: Ejecución en paralelo mediante subagentes independientes.
 - **`ralph-loop-workflow`**, **`ralph-tui-prd`**, **`ralph-tui-create-json`**, **`ralph-wiggum`**: Bucles autónomos de desarrollo guiados por especificaciones hasta el 100% de cumplimiento.
