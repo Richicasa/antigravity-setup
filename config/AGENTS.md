@@ -54,6 +54,9 @@ This document defines the global development protocol for Antigravity on this ma
 * `mcp-builder`: When building, configuring, or debugging custom Model Context Protocol (MCP) servers (Python/FastMCP or TypeScript) to connect external APIs, databases, or CLIs.
 * `docker-development`: When designing, optimizing, or securing multi-stage Dockerfiles and docker-compose configurations.
 * `web-artifacts-builder`: When building complex multi-component interactive frontend applications (React, Tailwind, shadcn/ui) bundled into standalone HTML artifacts.
+* `epic-infographics`: Studio-grade infographic generation and visual explainers across 12 design languages (Dark Glass, Isometric 3D, Swiss, Neo-Brutalist, Editorial, Cutaway, Blueprint) rendered to high-res PNG/SVG.
+* `excalidraw-diagram`: Organic hand-drawn concept maps, visual architectures, and editable whiteboard diagrams (`.excalidraw`).
+* `tonyppt-slide-creator`: High-aesthetic visual slide generation using Bento Grid layout principles.
 * `find-skills`: When the user asks "how do I do X", "find a skill for X", or requires new capabilities from the skills.sh ecosystem.
 * `skill-creator` / `creador-habilidades`: When authoring or refining new skills for Antigravity.
 
